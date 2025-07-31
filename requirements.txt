@@ -1,9 +1,8 @@
 # requirements.txt
+python = "3.9.16"
 streamlit
 pandas
 numpy
-transformers
-torch
 matplotlib
 seaborn
 plotly
@@ -12,5 +11,7 @@ statsmodels
 scipy
 scikit-learn
 datasets
+transformers
+torch
 huggingface-hub
 emoji
