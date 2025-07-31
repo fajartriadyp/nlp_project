@@ -1,1 +1,19 @@
- 
+runtime: python39
+entrypoint: streamlit run streamlit_app.py --server.port=$PORT --server.address=0.0.0.0
+
+env_variables:
+  STREAMLIT_SERVER_PORT: "8080"
+  STREAMLIT_SERVER_ADDRESS: "0.0.0.0"
+  STREAMLIT_SERVER_HEADLESS: "true"
+  STREAMLIT_SERVER_ENABLE_CORS: "false"
+  STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION: "false"
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  min_instances: 1
+  max_instances: 10
+
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10 
