@@ -17,6 +17,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report, f1_score, confusion_matrix
 import warnings
+
+import sys
+st.write("Python version:", sys.version)
+
 warnings.filterwarnings('ignore')
 
 # Konfigurasi halaman
