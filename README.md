@@ -43,26 +43,6 @@ streamlit run streamlit_app.py
 
 Aplikasi akan berjalan di `http://localhost:8501`
 
-## 🌐 Deployment Online
-
-### Streamlit Cloud (Gratis)
-1. Upload kode ke GitHub
-2. Kunjungi [share.streamlit.io](https://share.streamlit.io)
-3. Connect dengan repository GitHub
-4. Deploy otomatis
-
-### Render (Gratis)
-1. Buat akun di [render.com](https://render.com)
-2. Connect dengan repository GitHub
-3. Pilih "Web Service"
-4. Set build command: `pip install -r requirements.txt`
-5. Set start command: `streamlit run streamlit_app.py`
-
-### Railway (Gratis)
-1. Buat akun di [railway.app](https://railway.app)
-2. Connect dengan repository GitHub
-3. Deploy otomatis
-
 ## 📊 Dataset
 
 - **Source**: StephanAkkerman/financial-tweets-crypto (Hugging Face)
@@ -99,7 +79,7 @@ Proyek ini dikembangkan sebagai bagian dari tugas akhir mata kuliah Natural Lang
 
 ## 📄 License
 
-MIT License - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
+MIT License 
 
 ## 🤝 Contributing
 
